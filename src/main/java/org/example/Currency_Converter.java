@@ -25,7 +25,6 @@ public class Currency_Converter extends JFrame {
     private final JTextField amountField;
     private final JComboBox<String> fromComboBox, toComboBox;
     private final String[] currencies = {"USD","EUR","RUB"};
-    private double[] exchangeRates =  {1.00, 0.84, 0.72};
     public Currency_Converter() {
         setTitle("Currency Converter of Belarusbank");
         setLayout(new GridLayout(4, 2));
